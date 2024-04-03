@@ -129,7 +129,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "November 2021 - February 2022",
     points: [
-      "Developed and maintained an end customer-facing website using the MERN stack, attracting over 10,000 daily active users",
+      "Developed and maintained an end customer-facing website using the MERN stack, attracting many daily active users",
       "Implemented a robust authentication interface employing JWT, with an average of thousands of daily authentications and an outstanding availability rate of 99.99%.",
       "Optimized database operations, resulting in a 40% reduction in data retrieval time, reducing request latency to approximately 80 ms from 130 ms.",
     ],
