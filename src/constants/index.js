@@ -23,11 +23,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  dominix,
 } from "../assets";
 
 import taskmanger from "../assets/taskmanager.png";
 import musicroom from "../assets/musicroom.png";
 import My_club from "../assets/My_club.png";
+import budgetApp from "../assets/budgetApp.png";
+import chitChat from "../assets/chitChat.png";
 
 export const navLinks = [
   {
@@ -120,55 +123,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web Developer Intern",
+    company_name: "Dominix Global Design Ltd",
+    icon: dominix,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "November 2021 - February 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained an end customer-facing website using the MERN stack, attracting over 10,000 daily active users",
+      "Implemented a robust authentication interface employing JWT, with an average of thousands of daily authentications and an outstanding availability rate of 99.99%.",
+      "Optimized database operations, resulting in a 40% reduction in data retrieval time, reducing request latency to approximately 80 ms from 130 ms.",
     ],
   },
 ];
@@ -220,7 +183,7 @@ const projects = [
       },
     ],
     image: My_club,
-    source_code_link: "https://github.com/",
+    source_code_link: "#",
   },
   {
     name: "Task Manager",
@@ -241,19 +204,19 @@ const projects = [
       },
     ],
     image: taskmanger,
-    source_code_link: "https://github.com/",
+    source_code_link: "#",
   },
   {
     name: "Music Room",
     description:
-      "A web-based platform where people can get together to listen songs together. It is a platform where people with similar music tastes can create a room and vibe to music together.",
+      "Experience real-time communication with my Node, Express, and WebSockets chat app. Join rooms, connect with others, and chat effortlessly. Powered by SocketJS, it guarantees smooth, interactive messaging for an enhanced user experience.",
     tags: [
       {
-        name: "reactjs",
+        name: "nodeJs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "socketJS",
         color: "green-text-gradient",
       },
       {
@@ -261,8 +224,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: musicroom,
-    source_code_link: "https://github.com/",
+    image: chitChat,
+    source_code_link: "https://github.com/wyvernEvelyn19/chitChat",
+  },
+  {
+    name: "Budget Tracker",
+    description:
+      "Discover financial empowerment through my ReactJS and Bootstrap budgeting app. Effortlessly manage budgets and track expenses with color-coded progress bars. Add, delete, and calculate total budgets for a holistic view of financial health. Simplify your financial journey with this intuitive, user-friendly interface.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodeJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: budgetApp,
+    source_code_link: "https://wyvernevelyn19.github.io/budgetTracker/",
   },
 ];
 
