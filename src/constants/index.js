@@ -207,7 +207,7 @@ const projects = [
     source_code_link: "#",
   },
   {
-    name: "Music Room",
+    name: "Chat Application",
     description:
       "Experience real-time communication with my Node, Express, and WebSockets chat app. Join rooms, connect with others, and chat effortlessly. Powered by SocketJS, it guarantees smooth, interactive messaging for an enhanced user experience.",
     tags: [
