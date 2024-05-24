@@ -28,7 +28,7 @@ import {
 
 import taskmanger from "../assets/taskmanager.png";
 import musicroom from "../assets/musicroom.png";
-import My_club from "../assets/My_club.png";
+import typing from "../assets/typing.png";
 import budgetApp from "../assets/budgetApp.png";
 import chitChat from "../assets/chitChat.png";
 
@@ -165,25 +165,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Social Club",
+    name: "Typing Game",
     description:
-      "Web-based platform that allows user's to create events and book venues for their events. User's can register for an event. The application provides a convenient and efficient solution to managing different events.",
+      "Dive into the world of speed typing with my simple JavaScript typing game. Test your typing speed and accuracy while racing against the clock. This project covers important concepts such as creating timers, calling APIs, and hooking up DOM events. Whether you're a beginner honing your typing skills or a seasoned typist looking for a challenge, this game is sure to keep you engaged.",
     tags: [
       {
-        name: "python",
+        name: "JavaScript",
         color: "orange-text-gradient",
       },
       {
-        name: "django",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "CSS",
         color: "blue-text-gradient",
       },
     ],
-    image: My_club,
-    source_code_link: "#",
+    image: typing,
+    source_code_link: "https://wyvernevelyn19.github.io/typingGame/",
   },
   {
     name: "Task Manager",
