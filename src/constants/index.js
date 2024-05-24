@@ -24,6 +24,8 @@ import {
   tripguide,
   threejs,
   dominix,
+  pict,
+  ncsu,
 } from "../assets";
 
 import taskmanger from "../assets/taskmanager.png";
@@ -123,6 +125,17 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Bachelor of Engineering",
+    company_name: "Pune Institute of Computer Technology",
+    icon: pict,
+    iconBg: "#383E56",
+    date: "August 2019 - May 2023",
+    points: [
+      "Courses: Web Application and Development, Human Computer Interaction, Operating Systems, Deep Learning, Database Management Systems, Information and Storage Retrieval",
+      "Achieved a GPA of 3.71.",
+    ],
+  },
+  {
     title: "Web Developer Intern",
     company_name: "Dominix Global Design Ltd",
     icon: dominix,
@@ -132,6 +145,17 @@ const experiences = [
       "Developed and maintained an end customer-facing website using the MERN stack, attracting many daily active users",
       "Implemented a robust authentication interface employing JWT, with an average of thousands of daily authentications and an outstanding availability rate of 99.99%.",
       "Optimized database operations, resulting in a 40% reduction in data retrieval time, reducing request latency to approximately 80 ms from 130 ms.",
+    ],
+  },
+  {
+    title: "Master of Computer Science",
+    company_name: "North Carolina State University",
+    icon: ncsu,
+    iconBg: "#383E56",
+    date: "August 2023 - May 2025",
+    points: [
+      "Courses: Software Engineering, Design and Analysis of Algorithms, Automated Learning and Data Analytics, Human Computer Interaction, Accelerated Deep Learning, Internet Protocols",
+      "Currently have a GPA of 3.5 after the end of two semesters.",
     ],
   },
 ];
