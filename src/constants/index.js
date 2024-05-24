@@ -24,8 +24,6 @@ import {
   tripguide,
   threejs,
   dominix,
-  pict,
-  ncsu,
 } from "../assets";
 
 import taskmanger from "../assets/taskmanager.png";
@@ -33,6 +31,8 @@ import musicroom from "../assets/musicroom.png";
 import typing from "../assets/typing.png";
 import budgetApp from "../assets/budgetApp.png";
 import chitChat from "../assets/chitChat.png";
+import pict from "../assets/company/pict.png";
+import ncsu from "../assets/company/ncsu.jpg";
 
 export const navLinks = [
   {
