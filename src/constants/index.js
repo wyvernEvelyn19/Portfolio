@@ -158,6 +158,18 @@ const experiences = [
       "Currently have a GPA of 3.5 after the end of two semesters.",
     ],
   },
+  {
+    title: "Graduate Research Assistant",
+    company_name: "North Carolina State University",
+    icon: ncsu,
+    iconBg: "#383E56",
+    date: "May 2024 - Present",
+    points: [
+      "Implemented a GUI in ReactJS and used MATLAB to control 6 high-speed cameras and 9 microphones, and trigger multiple LEDs and automate the experiment for tracking flies.",
+      "Achieved real-time control and synchronization using NI DAQ, capturing data from 9 microphones and 1 camera.",
+      "Integrated GUI with the SLEAP animal tracking algorithm, enhancing data analysis and visualization capabilities.",
+    ],
+  },
 ];
 
 const testimonials = [
