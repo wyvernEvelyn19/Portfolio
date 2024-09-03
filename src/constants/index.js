@@ -142,9 +142,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "November 2021 - April 2022",
     points: [
-      "Developed and maintained an end customer-facing website using the MERN stack, attracting many daily active users",
-      "Implemented a robust authentication interface employing JWT, with an average of thousands of daily authentications and an outstanding availability rate of 99.99%.",
-      "Optimized database operations, resulting in a 40% reduction in data retrieval time, reducing request latency to approximately 80 ms from 130 ms.",
+      "Developed and maintained a website using the MERN stack, implementing key features such as dynamic product catalog and user authentication, resulted in improved user interaction.",
+      "Used JWT to increase security and provide authentication in the application.",
+      "Implemented RESTful API in Node using JavaScript to provide a layer between application and database.",
+      "Optimized database operations, significantly reducing data retrieval time and improving request latency.",
     ],
   },
   {
