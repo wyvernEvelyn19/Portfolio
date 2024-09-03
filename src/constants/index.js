@@ -140,7 +140,7 @@ const experiences = [
     company_name: "Dominix Global Design Ltd",
     icon: dominix,
     iconBg: "#383E56",
-    date: "November 2021 - February 2022",
+    date: "November 2021 - April 2022",
     points: [
       "Developed and maintained an end customer-facing website using the MERN stack, attracting many daily active users",
       "Implemented a robust authentication interface employing JWT, with an average of thousands of daily authentications and an outstanding availability rate of 99.99%.",
